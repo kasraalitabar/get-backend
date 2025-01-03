@@ -45,7 +45,7 @@ function renderComments(comments) {
             `
         }).join("");
         postNode.innerHTML += template
-        .querySelector(`#P${postId} > button`).classList.add('hide')
+        document.querySelector(`#P${postId} > button`).classList.add('hide')
     }
     
 }
